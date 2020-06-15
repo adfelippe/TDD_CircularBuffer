@@ -1,0 +1,46 @@
+---
+:source:
+  :path: test
+  :file: test_CircularBuffer.c
+:successes:
+- :test: test_CircularBuffer_BufferIsCreatedCorrectly
+  :line: 17
+  :message: ''
+  :unity_test_time: 0
+- :test: test_CircularBuffer_BufferSizeIsCorrectAfterCreation
+  :line: 23
+  :message: ''
+  :unity_test_time: 0
+- :test: test_CircularBuffer_BufferDataInserionIsCorrect
+  :line: 30
+  :message: ''
+  :unity_test_time: 0
+- :test: test_CircularBuffer_BufferIsReturningNewestData
+  :line: 38
+  :message: ''
+  :unity_test_time: 0
+- :test: test_CircularBuffer_BufferGetDataAtPosition
+  :line: 48
+  :message: ''
+  :unity_test_time: 0
+- :test: test_CircularBuffer_BufferIsCirculating
+  :line: 62
+  :message: ''
+  :unity_test_time: 0
+- :test: test_CircularBuffer_BufferIsRotating
+  :line: 79
+  :message: ''
+  :unity_test_time: 0
+- :test: test_CircularBuffer_BufferClearAfterCreation
+  :line: 99
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 8
+  :passed: 8
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.00096593500347808

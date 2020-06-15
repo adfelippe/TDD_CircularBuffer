@@ -1,0 +1,9 @@
+CircularBuffer tests
+
+- Initialization is not failing.
+- Size of buffer is correct after initialization.
+- Query buffer size.
+- Insert data into the buffer.
+- Buffer is circulating correctly.
+- Check boundary values.
+- Check out-of-bound values.
